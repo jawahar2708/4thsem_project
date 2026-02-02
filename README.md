@@ -1,4 +1,4 @@
-"""mermaid
+'''mermaid
 useCaseDiagram
     actor "Patient" as P
     actor "Clinician / Psychologist" as C
@@ -19,6 +19,6 @@ useCaseDiagram
     %% Relationships (Includes/Extends)
     UC2 ..> UC3 : <<include>>
     UC2 ..> UC4 : <<include>>
-"""
     UC5 ..> UC3 : <<include>>
     UC5 ..> UC4 : <<include>>
+'''
